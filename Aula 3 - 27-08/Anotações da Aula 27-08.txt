@@ -1,0 +1,22 @@
+CSS (Folha de Estilo em Cascata) pode ser:
+	- inline   -> Mais forte
+	- interno
+	- externo
+
+Sintaxe:
+<h1 style="text-align: center;">Projeto 1</h1>
+tag atributo propriedade: valor
+
+text-align: center;
+propriedade: valor
+
+seletor{
+	propriedade: valor;
+}
+h2{
+	text-align: center;
+}
+
+site com o framework do bootstrap: https://getbootstrap.com/
+
+f12 - atalho para o inspecionar
