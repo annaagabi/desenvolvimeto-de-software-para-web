@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <h1>Cadastro de Clientes</h1>
+
+    <!-- <form action="#" method="get">  -->
+    <form action="#" method="post"> 
+        <!-- o "method" é a forma como os dados passarão para o back-end -->
+        <!-- se o "method" não for definido, ele será get por padrão -->
+        <!-- o "action" é o programa (back-end) para onde vão os dados -->
+
+        <label for="">Nome: </label>
+        <input type="text" name="nome" id="" maxlength="80" size="30%"> 
+        <!-- "maxlength" é o tamanho máximo de caracteres q o usuario vai poder inserir --> 
+        <!-- "size" é o tamanho da caixa --> 
+        <!-- "name" é o nome que irá aparecer no back-end -->
+        
+        <br><br>
+
+        <input type="email" name="email" id="" maxlength="100" size="30%" placeholder="Digite seu nome aqui" required>
+        <!-- "placeholder" só é utilizado quando não há a tag "label" -->
+        <!-- o "required" indica que o input é obrigatório -->
+
+        <br><br>
+        <label for="">Data de Nascimento: </label>
+        <input type="date" name="nascimento" id="">
+        <!-- A Professora tem um padrão de não fazer abreviações no nome dos elementos/ atributos -->
+
+        <br><br>
+        <label for="">Número de Filhos: </label>
+        <input type="number" name="filho" id="" min="0" max="10" value="0">
+        <!-- "value" define o valor padrão  -->
+
+        <br><br>
+        <label for="">Dias de Home-Office: </label>
+        <br>
+        <!-- Forma correta de utilizar "input checkbox" -->
+        <input type="checkbox" name="diaHome" id="" value="seg" checked> Segunda
+        <!-- o "checked" deixa o checkbox marcado -->
+        <input type="checkbox" name="diaHome" id="" value="ter"> Terça
+        <input type="checkbox" name="diaHome" id="" value="qua"> Quarta
+        
+        <!-- Outras formas de utilizar "input checkbox" -->
+        <br><br>
+        <input type="checkbox" name="" id="">
+        <label for="">Segunda</label>
+        <input type="checkbox" name="" id="">
+        <label for="">Terça</label>
+        <input type="checkbox" name="" id="">
+        <label for="">Quarta</label>
+
+        <!-- ou -->
+        <br><br>
+        <input type="checkbox" name="" id="" value="">&nbsp; Quinta
+        <!-- o "&nbsp;" dá um espaço entre input e o texto -->
+        <input type="checkbox" name="" id=""> Sexta
+        <input type="checkbox" name="" id="">&nbsp; Sabado
+
+        <br><br>
+        <label for="">Digite sua senha: </label>
+        <input type="password" name="senha" id="" required>
+
+        <br><br>
+        <input type="submit" value="Enviar"> <!-- é um botão para enviar os dados -->
+        <input type="reset" value="Limpar"> <!-- é um botão que limpa o formulário -->
+    </form>
+    
+</body>
+</html>

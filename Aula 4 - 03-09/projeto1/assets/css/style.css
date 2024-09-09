@@ -1,0 +1,91 @@
+/* seletor universal */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+/******************************************************************************/
+
+/* seletor de classe */
+.paragrafos{
+    background-color: lightcyan;
+    padding: 20px 30px;
+}
+
+/* pseudo elementos */
+.paragrafos:hover{
+    color: darkblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/******************************************************************************/
+
+/* seletor de elemento */
+h1{
+    text-align: center;
+    color: crimson;
+    font-weight: bolder;
+    padding-top: 20px;
+    margin: 20px 0;
+}
+
+img{
+   border: 2px solid black; 
+   border-radius: 20px;
+   /* border-style: solid;
+   border-color: black;
+   border-width: 2px; */
+}
+
+ul{
+    margin-left: 40px;
+    list-style: none;
+}
+
+ul>li{
+    display: inline;
+}
+
+ol{
+    margin: 10px 0 0 40px; /* top right bottom left - sentido horário */
+}
+
+hr{
+    border: 1px solid lightpink;
+}
+
+table{
+    border-collapse: collapse; /* para as linhas da tabela não ficarem duplicadas */
+    margin: 0 0 20px 20px;
+}
+
+td,th{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+tr:nth-child(odd){/* formata as linhas impares da tabela */
+    background-color: #f1f1f1;
+}
+tr:nth-child(even){ /* formata as linhas pares da tabela */
+    background-color: lightgray;
+}
+
+form{
+    font-size: xx-large; 
+    margin: 0 50px;
+}
+
+form>input{
+    font-size: 24px;
+}
+
+/******************************************************************************/
+
+/* seletor de id */
+#p3{
+    background-color: lightgrey;
+}
