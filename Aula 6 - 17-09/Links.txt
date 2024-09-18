@@ -1,0 +1,12 @@
+Protótipo do Projeto: https://www.figma.com/design/5CflBYbkceLWuCDT8vWlgp/Design-de-Interface-Web?node-id=1-2&t=M4eAjMSIaRQwqgK7-1
+
+Paleta de Cores:
+https://icolorpalette.com/
+https://coolors.co/palettes/trending
+https://color.adobe.com/pt/create/color-contrast-analyzer
+
+Fontes:
+https://fonts.google.com/selection/embed
+
+Cor
+#1b4965

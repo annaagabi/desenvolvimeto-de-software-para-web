@@ -1,0 +1,20 @@
+*{
+    font-family: "Hind Siliguri", sans-serif;;
+}
+
+body{
+    padding: 50px;
+}
+.sil{
+    background-color: palevioletred;
+}
+
+.cor{
+    background-color: aquamarine;
+}
+
+#carouselExampleAutoplaying{
+    width: 50%;
+    margin: 0 auto;
+    
+}
