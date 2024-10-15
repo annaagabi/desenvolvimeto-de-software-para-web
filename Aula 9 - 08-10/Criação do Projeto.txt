@@ -1,0 +1,46 @@
+Planejamento do que vamos desenvolver
+
+Controle de tarefas
+
+cod   tarefa	   início     término 
+1 - estudar PHP - 01/10/24     08/10/24
+2 - fazer projeto- 01/10/24
+
+codigo - controlado pelo mysql 
+tarefa - digitada pelo usuário
+início - digitada pelo usuário
+término - data do sistema
+
+login de usuário
+nome usuario      senha
+admin	           1234
+fulano             $x999
+
+Banco de dados: tarefas
+tabela usuarios   criar 1º
+tabela tarefas    criar 2º
+
+tabela usuarios
+id  smallint numeração automática não nulo não tem repetição chave primária
+nome varchar(80) não nulo 
+email varchar(80) não nulo
+senha varchar(32) não nulo    criptografar
+
+variáveis de sessão -> id,nome apareça em todas as telas.
+
+
+tabela tarefas
+codigo - numeração automática, pk,smallint, não nulo 
+tarefa - varchar(100) não nulo
+inicio - date não nulo 
+termino- date nulo
+idUsuario smallint fk(foreign key = chave estrangeira==> chave primária de uma outra tabela)
+
+Consultas 
+- lista de todas as tarefas por usuário
+- lista das tarefas encerradas por usuário
+- lista das tarefas não encerradas por usuário
+- lista de tarefas por período (encerradas ou não) por usuário
+- lista de usuários
+- lista de usuários que iniciaram uma determinada tarefa 
+
